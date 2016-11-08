@@ -1,4 +1,4 @@
-# templated-singleton
+# singleton_t
 Header only templated-singleton implementation with C++11.
 
 ## Usage
@@ -12,7 +12,7 @@ public:
 };
 
 // Declare the singleton class.
-class FooSingleton : public Singleton<Foo> {
+class FooSingleton : public singleton_t::Singleton<Foo> {
 };
 
 // Call the singleton-instance's `bar()` method.
