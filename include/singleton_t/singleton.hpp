@@ -2,8 +2,10 @@
 // Created by Masayuki IZUMI on 7/12/16.
 //
 
-#ifndef TEMPLATEDSINGLETON_TEMPLATEDSINGLETON_HPP
-#define TEMPLATEDSINGLETON_TEMPLATEDSINGLETON_HPP
+#ifndef SINGLETONT_SINGLETON_HPP
+#define SINGLETONT_SINGLETON_HPP
+
+namespace singleton_t {
 
 template <class T>
 class Singleton {
@@ -35,4 +37,6 @@ private:
   }
 };
 
-#endif //TEMPLATEDSINGLETON_TEMPLATEDSINGLETON_HPP
+}
+
+#endif //SINGLETONT_SINGLETON_HPP
